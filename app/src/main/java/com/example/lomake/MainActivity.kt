@@ -105,13 +105,13 @@ fun Form (modifier: Modifier = Modifier) {
         )
 
         Button(
-            // This modifier makes the button take up the full width.
+
             modifier = formModifier,
             onClick = {
-                // TODO: Handle the button click, for example:
-                // Log.d("Form", "Username: $username, Password: $password")
+
+
             }
-        ) { // The content of the Button, like Text, goes inside the trailing lambda.
+        ) {
             Text("Submit")
         }
     }
